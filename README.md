@@ -26,8 +26,8 @@ Install the package with
 This needs superuser privileges. If you want to install the package locally,
 you can run:
 
- mypath=XXX
- PYTHONPATH=$mypath/lib/python2.7/site-packages/ python setup.py install --prefix $mypath
+ mypath=C:\Users\Laptop\OneDrive\Documents\Msc Computer Science\Msc_Computer_Science\coursework\Dissertation\quine-mccluskey
+ PYTHONPATH=$mypath/lib/python3.11/site-packages/ python setup.py install --prefix $mypath
 
 where XXX can be any path. You may have to change the PYTHONPATH according to your
 python version.
